@@ -1,0 +1,30 @@
+{
+  "name": "server_test_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf ./build",
+    "build": "tsc",
+    "start": "node ./build/src",
+    "ts:node": "ts-node ./src/index.ts",
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "@types/express-handlebars": "^5.3.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "mongoose": "^5.13.5",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@handlebars/allow-prototype-access": "^1.0.5"
+  }
+}
